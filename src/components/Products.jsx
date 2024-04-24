@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Products from './Products';
 
 const apiUrl = 'https://api.escuelajs.co/api/v1/products';
 
@@ -46,6 +47,5 @@ const Products = () => {
     </div>
   );
 };
-
 
 export default Products;
