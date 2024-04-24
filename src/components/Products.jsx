@@ -37,7 +37,7 @@ const Products = () => {
               <img src={product.images[0]} alt={product.title} className="card-img-top" style={{ maxWidth: '100px', maxHeight: '100px' }} />
               <div className="card-body">
                 <h5 className="card-title">{product.title}</h5>
-                <p className="card-text">Price: ${product.price}</p>
+                <p className="card-text">Price: $ s{product.price}</p>
               </div>
             </div>
           </div>
